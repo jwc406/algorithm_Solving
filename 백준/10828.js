@@ -1,6 +1,7 @@
 // /dev/stdin
 
-let input = require("fs").readFileSync("input.txt").toString().split("\n");
+// let input = require("fs").readFileSync("input.txt").toString().split("\n");
+let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 
 input = input.map((e) => e.replace("\r", ""));
 
