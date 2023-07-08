@@ -21,3 +21,12 @@ while (i <= testCase) {
 }
 
 console.log(answer);
+
+// 남규님 코드
+// let [count, ...input] = require('fs').readFileSync('ex.txt').toString().split('\n').map((x) => x.replace('\r', ''));
+
+// for(let i = 0; i<count ; i++){
+// let arr = input[i].split(" ")
+// let newArr = arr.map((item)=> item.split('').reverse().join(""))
+// console.log(newArr.join(" "))
+// }
